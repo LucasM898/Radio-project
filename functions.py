@@ -1,5 +1,6 @@
 import os
 
+#converst text to binary    
 def get_payload(string):
     result = ""
     for char in string:
@@ -18,4 +19,8 @@ def play_bit(bit):
         play_tone(2200)
     else:
         play_tone(1200)
-print(get_payload('chatgpt is retarded'))
+#transmit
+def transmit():
+    print('transmitting beep boop bop')
+
+#
